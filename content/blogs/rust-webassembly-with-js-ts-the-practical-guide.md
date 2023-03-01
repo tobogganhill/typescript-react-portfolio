@@ -1,12 +1,9 @@
 ---
-title: Blog
-description:
-  Learn how to code in Rust! Compile the code to WebAssembly, prepare JS/TS
-  frontend and finish the course by creating the practical Snake game that can
-  run in any browser.
-author: Filip Jerga
-authorImage: https://thrangra.sirv.com/Rust_small.jpg
-coverImage: https://thrangra.sirv.com/Rust_small.jpg
+title: Article
+description: Article 3
+author: VeriDID
+authorImage: https://images.unsplash.com/photo-1432847712612-926caafaa802?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60
+coverImage: https://images.unsplash.com/photo-1432847712612-926caafaa802?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60
 date: '2022-03-25'
 ---
 

@@ -4,8 +4,13 @@ import { BlogList } from '../components/blogs';
 import { PortfolioList } from '../components/portfolios';
 import { BaseLayout } from '../components/layouts';
 import { getBlogs } from '../lib/blogs';
+import { Blog } from '@/interfaces/Blog';
 
-const Home: NextPage = () => {
+type Props = {
+	blogs: Blog[];
+};
+
+const Home: NextPage<Props> = ({ blogs }) => {
 	return (
 		<BaseLayout>
 			<h2 className='text-2xl font-bold tracking-tight text-gray-900'>
@@ -14,7 +19,7 @@ const Home: NextPage = () => {
 					<a className='text-sm ml-1 text-orange-600'> (All)</a>
 				</Link>
 			</h2>
-			<BlogList />
+			<BlogList blogs={blogs} />
 			<br></br>
 			<h2 className='text-2xl font-bold tracking-tight text-gray-900'>
 				Portfolio
@@ -29,8 +34,7 @@ const Home: NextPage = () => {
 
 export const getStaticProps: GetStaticProps = () => {
 	const blogs = getBlogs();
-	console.log(blogs);
-	return { props: {} };
+	return { props: { blogs } };
 };
 
 export default Home;

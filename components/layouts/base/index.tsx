@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/legacy/image';
 import { Navbar, Header, Footer } from '../../common';
+import { FunctionComponent, PropsWithChildren } from 'react';
 
-const BaseLayout = ({ children }: any) => {
+const BaseLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
 	return (
 		<>
 			<div className='mx-auto max-w-7xl px-4 space-y-8 sm:px-6 lg:px-8'>
