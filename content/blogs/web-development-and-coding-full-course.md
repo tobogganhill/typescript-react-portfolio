@@ -1,8 +1,8 @@
 ---
 title: Article
 description: Article 5
-author: Filip Jerga
-authorImage: https://images.unsplash.com/photo-1527542146552-9e862c46e596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+author: VeriDID
+authorImage: https://media.licdn.com/dms/image/C560BAQGeWHUkiHfcZg/company-logo_200_200/0/1677005145634?e=1685577600&v=beta&t=qlk2DfdJ6aVKDMJoU6IxZYHtizfvqRwTbTYKHSwHOGY
 coverImage: https://images.unsplash.com/photo-1527542146552-9e862c46e596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
 date: '2021-05-25'
 ---

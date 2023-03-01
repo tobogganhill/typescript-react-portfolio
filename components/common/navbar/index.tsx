@@ -29,11 +29,11 @@ const Navbar = () => {
 									<a>
 										<span className='sr-only'>VeriDID</span>
 										<Image
-											width={30}
-											height={30}
-											alt='Your Company'
+											width={20}
+											height={20}
+											alt='VeriDID'
 											className='h-8 w-auto sm:h-10'
-											src='https://tailwindui.com/img/logos/mark.svg?color=orange&shade=600'
+											src='https://cdn-icons-png.flaticon.com/128/2549/2549900.png'
 										/>
 									</a>
 								</Link>

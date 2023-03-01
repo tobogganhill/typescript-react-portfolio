@@ -2,7 +2,7 @@
 title: Article
 description: Article 4
 author: VeriDID
-authorImage: https://images.unsplash.com/photo-1529686159790-3246c5082afb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+authorImage: https://media.licdn.com/dms/image/C560BAQGeWHUkiHfcZg/company-logo_200_200/0/1677005145634?e=1685577600&v=beta&t=qlk2DfdJ6aVKDMJoU6IxZYHtizfvqRwTbTYKHSwHOGY
 coverImage: https://images.unsplash.com/photo-1529686159790-3246c5082afb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
 date: '2022-01-25'
 ---

@@ -19,6 +19,7 @@ const nextConfig = {
 			'thrangra.sirv.com',
 			'assets-global.website-files.com',
 			'media.licdn.com',
+			'cdn-icons-png.flaticon.com',
 		],
 	},
 };
