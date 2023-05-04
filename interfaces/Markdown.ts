@@ -7,7 +7,6 @@ export interface MarkdownItem {
 	content: string;
 	slug: string;
 	date: string;
-	coverImage: string;
 }
 
 export interface MarkdownContent {
