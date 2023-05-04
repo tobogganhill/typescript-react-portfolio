@@ -4,6 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Image from 'next/legacy/image';
 import { navigation } from './navigation';
+import { ContentSearch } from '@/components/search';
 
 const Navbar = () => {
 	return (
@@ -55,7 +56,7 @@ const Navbar = () => {
 							))}
 						</div>
 						<div className='hidden md:block'>
-							{/* Search Input Component */}
+							<ContentSearch />
 						</div>
 					</nav>
 				</div>
@@ -98,7 +99,9 @@ const Navbar = () => {
 									</Link>
 								))}
 							</div>
-							<div className='px-4'>{/* Search Input Component */}</div>
+							<div className='px-4'>
+								<ContentSearch />
+							</div>
 							<a
 								href='#'
 								className='block w-full bg-gray-50 px-5 py-3 text-center font-medium text-orange-600 hover:bg-gray-100'>

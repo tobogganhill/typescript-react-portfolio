@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "markdown-full-example",
+    "title": "Article 1 Title The Rain In Spain Falls Mainly On The Plain in September Of Warm Years",
+    "description": "Article 1 Description",
+    "category": "blogs"
+  },
+  {
+    "slug": "nft-marketplace-in-react-js-next-typescript-full-guide",
+    "title": "Article 2 Title",
+    "description": "Article 2 Description",
+    "category": "blogs"
+  },
+  {
+    "slug": "rust-webassembly-with-js-ts-the-practical-guide",
+    "title": "Article 3 Title",
+    "description": "Article 3 Description",
+    "category": "blogs"
+  },
+  {
+    "slug": "unity-2d-with-c-complete-game-dev-course",
+    "title": "Article 4 Title",
+    "description": "Article 4",
+    "category": "blogs"
+  },
+  {
+    "slug": "web-development-and-coding-full-course",
+    "title": "Article 5 Title",
+    "description": "Article 5",
+    "category": "blogs"
+  },
+  {
+    "slug": "software-engineer-siemens",
+    "title": "Portfolio 1 Title",
+    "description": "Portfolio 1 Description",
+    "category": "portfolios"
+  }
+]

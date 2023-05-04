@@ -14,14 +14,14 @@ const Header = () => {
 						<a
 							href='#'
 							className='flex w-full items-center justify-center rounded-md border border-transparent bg-orange-500 px-8 py-3 text-base font-medium text-white hover:bg-gray-400 md:py-4 md:px-10 md:text-lg'>
-							Team
+							Services
 						</a>
 					</div>
 					<div className='mt-3 sm:mt-0 sm:ml-3'>
 						<a
 							href='#'
 							className='flex w-full items-center justify-center rounded-md border border-transparent bg-orange-500 px-8 py-3 text-base font-medium text-white hover:bg-gray-400 md:py-4 md:px-10 md:text-lg'>
-							Portfolio
+							Team
 						</a>
 					</div>
 				</div>
