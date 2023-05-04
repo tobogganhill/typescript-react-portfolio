@@ -2,7 +2,7 @@ import { join } from 'path';
 import fs from 'fs';
 import matter from 'gray-matter';
 import {
-	ContentItemName,
+	contentItemName,
 	MarkdownContent,
 	MarkdownItem,
 	SearchContent,
@@ -44,7 +44,7 @@ const saveSearchData = (content: MarkdownContent) => {
 	const searchItemList: SearchContent[] = [];
 
 	Object.keys(content).forEach((dataSource) => {
-		const contentName = dataSource as ContentItemName;
+		const contentName = dataSource as contentItemName;
 
 		content[contentName].forEach(
 			(data: { slug: any; title: any; description: any }) => {
