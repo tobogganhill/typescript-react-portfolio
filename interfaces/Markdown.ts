@@ -15,8 +15,8 @@ export interface MarkdownContent {
 	portfolios: Portfolio[];
 }
 
-export type contentItemName = keyof MarkdownContent;
+export type ContentItemName = keyof MarkdownContent;
 
 export interface SearchContent extends Partial<MarkdownItem> {
-	category: contentItemName;
+	category: ContentItemName;
 }
