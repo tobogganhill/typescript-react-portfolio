@@ -2,7 +2,7 @@ import { join } from 'path';
 import fs from 'fs';
 import matter from 'gray-matter';
 import {
-	contentItemName,
+	ContentItemName,
 	MarkdownContent,
 	MarkdownItem,
 	SearchContent,
@@ -44,20 +44,18 @@ const saveSearchData = (content: MarkdownContent) => {
 	const searchItemList: SearchContent[] = [];
 
 	Object.keys(content).forEach((dataSource) => {
-		const contentName = dataSource as contentItemName;
+		const contentName = dataSource as ContentItemName;
 
-		content[contentName].forEach(
-			(data: { slug: any; title: any; description: any }) => {
-				const searchItem: SearchContent = {
-					slug: data.slug,
-					title: data.title,
-					description: data.description,
-					category: contentName,
-				};
+		content[contentName].forEach((data) => {
+			const searchItem: SearchContent = {
+				slug: data.slug,
+				title: data.title,
+				description: data.description,
+				category: contentName,
+			};
 
-				searchItemList.push(searchItem);
-			}
-		);
+			searchItemList.push(searchItem);
+		});
 	});
 
 	fs.writeFileSync(searchFile, JSON.stringify(searchItemList, null, 2));
